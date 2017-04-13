@@ -1,0 +1,25 @@
+{
+  "name": "leogopal/wp-simple-secure-passwords",
+  "type": "wordpress-plugin",
+  "description": "Simple Secure Passwords for WordPress with bcrypt and add-ons",
+  "homepage": "https://github.com/leogopal/simple-secure-passwords",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Leo Gopal",
+      "email": "leo@leogopal.com"
+    }
+  ],
+  "require-dev": {
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "composer/installers": "~1.0",
+    "CMB2/CMB2": "~2.2",
+    "wpupdatephp/wp-update-php": "^1.1"
+  },
+  "extra": {
+    "installer-name": "simple-secure-passwords"
+  }
+}
